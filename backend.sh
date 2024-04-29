@@ -46,7 +46,7 @@ npm install &>>$LOGFILE
 VALIDATE $? "Installing node js dependencies"
 
 #source file path is your repository path in which the file is created.
-cp /home/ec2-user/shell-script2/backend.service /etc/systemd/system/backend.service &>>$LOGFILE
+cp /home/ec2-user/shell-script-2/backend.service /etc/systemd/system/backend.service &>>$LOGFILE
 ## here we are giving the absolute path to avoid the errors basically.
 VALIDATE $? "Copied backend service"
 
